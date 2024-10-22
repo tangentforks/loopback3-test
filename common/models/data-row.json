@@ -1,10 +1,14 @@
 {
-  "name": "data",
-  "plural": "data",
+  "name": "DataRow",
+  "plural": "DataRows",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
-    "validateUpsert": true
+    "validateUpsert": true,
+    "mysql": {
+      "schema": "ro",
+      "table": "data"
+    }
   },
   "properties": {
     "id": {

@@ -13,8 +13,8 @@
       "./mixins"
     ]
   },
-  "data": {
-    "dataSource": null,
+  "DataRow": {
+    "dataSource": "ro",
     "public": true
   }
 }

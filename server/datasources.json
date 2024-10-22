@@ -1,1 +1,22 @@
-{}
+{
+  "ro": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "loopback_ro",
+    "user": "loopback",
+    "password": "loopback",
+    "name": "ro",
+    "connector": "mysql"
+  },
+  "wo": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "loopback_wo",
+    "user": "loopback",
+    "password": "loopback",
+    "name": "wo",
+    "connector": "mysql"
+  }
+}
