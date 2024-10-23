@@ -14,7 +14,7 @@
     ]
   },
   "DataRow": {
-    "dataSource": "ro",
+    "dataSource": "rw",
     "public": true
   }
 }

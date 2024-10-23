@@ -47,3 +47,12 @@ Browse your REST API at http://localhost:3000/explorer
 
 Visit http://localhost:3000/explorer to see the API.
 Visit http://localhost:3000/api/DataRows to see the data.
+
+To insert data, visit:
+http://localhost:3000/explorer/#!/DataRow/DataRow_create
+
+In the `data` field, paste in something like:
+
+```json
+{ "text": "kiwi" }
+```

@@ -7,6 +7,7 @@
   },
   "scripts": {
     "lint": "eslint .",
+    "prestart": "copy rw-split-connector.js node_modules",
     "start": "node .",
     "posttest": "npm run lint && nsp check"
   },
